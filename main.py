@@ -15,6 +15,13 @@ def calculate_semiperimeter(a, b, c):
     return (a + b + c) / 2
 
 def calculate_area(a, b, c):
+    """
+    Вычисляем площадь трегольника
+    :param a: Сторона а
+    :param b: Сторона b
+    :param c: Сторона c
+    :return: Площадь
+    """
     s = calculate_semiperimeter(a, b, c)
     area = (s * (s - a) * (s - b) * (s - c)) ** 0.5
     return area
