@@ -13,4 +13,6 @@ def calculate_area(a, b, c):
     return area
 
 if __name__ == '__main__':
-    pass
+    a, b, c = input_sides()
+    area = calculate_area(a, b, c)
+    print(f"Площадь треугольника равна {area}")
