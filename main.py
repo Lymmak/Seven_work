@@ -1,3 +1,9 @@
+def input_sides():
+    a = float(input("Введите длину стороны a: "))
+    b = float(input("Введите длину стороны b: "))
+    c = float(input("Введите длину стороны c: "))
+    return a, b, c
+
 def calculate_semiperimeter(a, b, c):
     return (a + b + c) / 2
 
