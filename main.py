@@ -5,6 +5,13 @@ def input_sides():
     return a, b, c
 
 def calculate_semiperimeter(a, b, c):
+    """
+    Вычисляем полупериметр
+    :param a: Сторона а
+    :param b: Сторона b
+    :param c: Сторона c
+    :return: полупериметр
+    """
     return (a + b + c) / 2
 
 def calculate_area(a, b, c):
